@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(ph.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#loginborder{
+    border: 2px solid white;
+    height: 100%;
+    position: relative;
+    padding: 10px;
+}
+#logbutton{
+    background-color:#c51f33;
+    border-radius: 25px;
+    border:#c51f33 solid 1px;
+    padding: 4px;
+    width: 100%;
+    margin: 20px auto ;
+    cursor: pointer;
+}
+#block{
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    padding: 80px 25px 25px 25px;
+    position: fixed;
+    margin-left: -200px;
+    margin-top: -300px; 
+    left: 50%;
+    top: 50%;
+    background-color: #0a0a0ad8;
+}
+h1{
+    color: #fdfdfd;
+    text-align: center;
+    margin: 80px auto 20px auto;
+}
+img{
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    margin-left: -60px;
+}
+h1::first-letter{
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 81px;
+}
+#name,#password{
+        width:300px;
+        height: 30px;
+        display: block;
+}
